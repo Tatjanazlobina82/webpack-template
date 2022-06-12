@@ -1,13 +1,105 @@
-include pug/libs/_libs
-
 doctype html
-html(lang='en')
-    include pug/_head
-    body
-        .container
-            h1 Hello from Webpack
-            h2.container__subtitle Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ipsam!
-            +image('angular')
-            +image('webpack')
-            .block
-            .user
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Damadams
+    body 
+        header 
+            .container
+                .menu
+                    .menu-logo DAMADAMS 
+                    .menu-nav
+                        .menu-nav-link Home 
+                        .menu-nav-link About
+                        .menu-nav-link Latest Works
+                        .menu-nav-link Testimonials
+                        .menu-nav-link Contact
+        main
+            section.one 
+                .container
+                    .about-first
+                        .about-first-left
+                            .greetings Hello,
+                            span.name-first I’m 
+                            span.name-second Daniella Adams
+                            .text I’m a Graphics Designer,Designng has become my everyday affair. masting styles,grids cant be less interesting.
+                            .input Download CV
+
+                        .about-first-right 
+                            .photo-img
+            section.two
+                .container
+                    .about-second 
+                        .about-second-left
+                        .about-second-right
+                            .title I am a creative Graphic & UI Designer
+                            .text I’m a Graphics Designer,Designng has become my everyday affair. masting styles,grids cant be less interesting,Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            .links
+                                .link-one Download CV
+                                .link-two View Portfolio
+                            .indicators
+                                .indicator-one
+                                    .ps Ps
+                                    .number-line
+                                        .number 70%
+                                        .line 
+                                .indicator-two
+                                    .figma
+                                    .number-line
+                                        .number 50%
+                                        .line 
+                                .indicator-three
+                                    .ai Ai
+                                    .number-line
+                                        .number 80%
+                                        .line 
+            section.three 
+                .container
+                    .orders 
+                        .order
+                            .number 81
+                            .text HAPPY CUSTOMERS
+                        .order
+                            .number 97+
+                            .text Completed Projects
+                        .order
+                            .number 50
+                            .text Awards Won
+            section.four 
+                .container 
+                    .cards 
+                        .cards-header Latest work
+                        .cards-cards
+                            .card
+                                .images 
+                                img(src="../images/1.png", alt="1")  
+                                .title Project title
+                                .name UI, Art drection
+                            .card
+                                .images 
+                                img(src="../images/2.png", alt="2")  
+                                .title Project title
+                                .name UI, Art drection
+                            .card
+                                img(src="../images/3.png", alt="3") 
+                                .title Project title
+                                .name UI, Art drection
+                            .card
+                                img(src="../images/4.png", alt="4") 
+                                .title Project title
+                                .name UI, Art drection
+                            .card
+                                img(src="../images/5.png", alt="5") 
+                                .title Project title
+                                .name UI, Art drection
+                            .card
+                                img(src="../images/6.png", alt="6") 
+                                .title Project title
+                                .name UI, Art drection
+
+
+        footer 
+
+
