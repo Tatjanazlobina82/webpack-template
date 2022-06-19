@@ -1,20 +1,25 @@
-$primaryColor: darkcyan;
-$secondaryColor: darkslategray;
-
-html {
-  font-family: generalFont;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-h1  {
-  color: $primaryColor;
+.clearfix::after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
-.container{
-  &__subtitle {
-    color: $secondaryColor;
-    display: block;
-    height: 140px;
-    background: url("../images/webpack.png");
-    display: flex;
-    justify-content: center;
-  }
+
+
+header, main, footer {
+  max-width: 1440px;
+  margin: 0 auto;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: calc(1440px - 300px);
+}
+

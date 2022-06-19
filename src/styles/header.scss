@@ -1,0 +1,90 @@
+.menu {
+    display: grid;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.navigation {
+    ul {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: space-between;
+        li {
+            list-style: none;
+            .a1 {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 20px;
+                text-align: center;
+                color: #FFCE40;
+            }
+            a {
+                text-decoration: none;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+                text-align: center;
+                color: black;
+            }
+        }
+    }
+    
+}
+
+.buttons{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    .button-language {
+        width: 162px;
+        height: 54px;
+        background: #FFFFFF;
+        border: 1px solid #EFF0F7;
+        box-shadow: 0px 5px 5px rgba(8, 15, 52, 0.04);
+        border-radius: 10px;
+        margin-right: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            button{
+                display: grid;
+                grid-auto-flow: column;
+                background: #FFFFFF;
+                border: none;
+                align-items: center;
+            }
+            select {
+                font-family: 'Lato';
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 20px;
+                border: none;
+            }
+        
+        }
+        .button-download {
+            button {
+                width: 122px;
+                height: 54px;
+                background: #1B1C1F;
+                border-radius: 9.99987px;
+                font-family: 'Lato';
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 18px;
+                color: #FFFFFF;
+            }
+        }
+    
+}
+
+
+    
+  
+

@@ -1,0 +1,128 @@
+@media (max-width: 1200px) {
+    .menu {
+        padding: 32px 20px;
+        
+    }
+}
+
+@media (max-width: 900px) {
+    .menu {
+        padding: 20px 20px;
+        grid-row-gap: 10px;
+        img {
+            height: 30px;
+        }
+
+        .navigation {
+            grid-row-start: 2;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .buttons .button-language {
+            height: 35px;
+        }
+        .buttons .button-language select {
+            font-size: 13px;
+        }
+        
+        .buttons .button-download button {
+            height: 35px;
+            font-size: 13px;
+            
+        }
+    }   
+}
+
+
+
+@media (max-width: 550px) {
+    .menu {
+        padding: 10px 10px;
+        grid-row-gap: none;
+        justify-content: space-between;
+        align-items: flex-start;
+        img {
+            height: 20px;
+        }
+
+        .navigation {
+            grid-row-start: 1;
+            grid-row-end: 1;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            
+                ul {
+                    grid-auto-flow: row;
+                }
+                    
+                .a1     {
+                    font-size: 13px;
+                }
+                    
+                a {
+                    font-size: 13px;
+                }
+        }
+
+        .buttons {
+            // grid-auto-flow: row;
+            // justify-content: start;
+            grid-row-start: 1;
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+            
+
+        .buttons .button-language {
+            height: 25px;
+            width: 110px;
+        }
+        .buttons .button-language select {
+            font-size: 10px;
+        }
+        
+        .buttons .button-download button {
+            height: 25px;
+            font-size: 10px;
+            width: 110px;
+            
+        }
+    }   
+}
+
+@media (max-width: 450px) {
+
+    .menu {
+        
+        img {
+            height: 15px;
+        }
+
+        .navigation {
+                ul 
+                   .a1     {
+                        font-size: 10px;
+                    }
+                    
+                    a {
+                        font-size: 10px;
+                    } 
+        }
+
+        .buttons .button-language {
+            height: 18px;
+            width: 75px;
+        }
+
+        .buttons .button-language select {
+            font-size: 8px;
+        }
+            
+        .buttons .button-download button {
+            height: 20px;
+            font-size: 6px;
+            width: 70px;
+        }
+    }    
+}
