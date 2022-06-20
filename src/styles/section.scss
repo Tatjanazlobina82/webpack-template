@@ -1,3 +1,97 @@
+.section {
+    max-width: 1440px;
+    padding-top: 85px;
+    padding-bottom: 110px;
+    background: radial-gradient(136.65% 100.66% at 26.53%,at 67.62%, #FFCE40 0%, #E18F00 83.85%);
+    background: radial-gradient(136.65% 100.66% at 26.53% 67.62%, #FFCE40 0%, #E18F00 83.85%);
+    background: radial-gradient(110.58% 118.96% at 57.38%,at -10.21%, #FFCE40 0%, #E47B00 100%);
+    background: radial-gradient(110.58% 118.96% at 57.38% -10.21%, #FFCE40 0%, #E47B00 100%);
+        .product {
+            display: grid;
+            grid-auto-flow: column;
+            justify-content: space-between;
+            .product-presentation {
+                padding-top: 85px;
+                width: 493px;
+                
+                
+                .h1-product-name{
+                    width: 361px;
+                    padding: 7px 0 11px 0;margin-bottom: 25px;background: rgba(255, 255, 255, 0.35);
+                    border-radius: 49px;
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #1B1C1F;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                .span-product-info {
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 50px;
+                    color: #1B1C1F;
+                    margin-bottom: 35px;
+                }
+
+                .span-product-text {
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: rgba(27, 28, 31, 0.75);
+                    margin-bottom: 41px;
+                }
+
+                    .product-download{
+                        display: flex;
+                        .product-download-first {
+                            width: 163px;
+                            .link-product-download-googleplay {
+                            background: #000000;
+                            color: white;
+                            height: 53px;
+                            border-radius: 8px;
+                            margin-right: 20px;
+                            }
+                        }
+                        
+                        .product-download-second {
+                            width: 163px;
+                            .link-product-download-appstore{
+                                background: #000000;
+                                color: white;
+                                height: 53px;
+                                border-radius: 8px;
+                                    .img-app {
+                                        width: 30px;
+                                        height: 30px;
+                                        background-color: white;
+                                    }
+                            }
+                        }
+                            
+                    }
+                        
+
+            }
+            .product-composition {
+                background: url(../images/Comp-1_00000-1.jpg) 0 0/590px 590px no-repeat;
+                height: 590px;
+                width: 590px;
+            }
+        }
+}
+    
+    
 
     
 
