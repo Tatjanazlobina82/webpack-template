@@ -1,0 +1,99 @@
+.section2 {
+    padding: 83px 0 74px 0;
+        .h2 {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+            color: #2A3342;
+            margin-bottom: 18px;
+        }
+        .span {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 23px;
+            line-height: 24px;
+            text-align: center;
+            color: rgba(27, 28, 31, 0.75);
+            margin-bottom: 39px;
+        }
+        .about-what {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-row-gap: 25px;
+            margin-bottom: 40px;
+            .about-what-card {
+            text-align: center;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 34px rgba(27, 28, 31, 0.1);
+            border-radius: 20px;
+            padding: 32px;
+            min-height: 272px;
+            
+                .about-what-card-image {
+                    width: 64px;
+                    height: 64px;
+                    background: #FBC028;
+                    border-radius: 6px;
+                    margin: 0 auto;
+                    margin-bottom: 24px;
+                        .card-img {
+                            padding-top: 23px;
+                        }
+                }
+                .about-what-card-title {
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                    text-align: center;
+                }
+                .about-what-card-text{
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: rgba(27, 28, 31, 0.75);
+                }
+            }
+
+            .about-view {
+
+                grid-row-start: 1;
+                grid-row-end: 3;
+                grid-column-start: 2;
+                grid-column-end: 2;
+                background-repeat: no-repeat;
+                background: url(../images/119597233_428456754796613_8037600463421826658_n.png);
+            }
+        }
+        .bottom-see-more {
+            background: #1B1C1F;
+            box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+            border-radius: 6px;
+            width: 133px;
+            margin: 0 auto;
+            padding: 14px 28px;
+                .see {
+                    text-decoration: none;
+                    outline: none;
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #FFFFFF;
+                    text-align: center;
+                }
+           
+           
+            
+           
+        }
+}
