@@ -55,27 +55,44 @@
                         display: flex;
                         .product-download-first {
                             width: 163px;
-                            .link-product-download-googleplay {
                             background: #000000;
                             color: white;
                             height: 53px;
                             border-radius: 8px;
                             margin-right: 20px;
-                            }
+                            display: flex;
+                            align-items: center;
+                            padding-left: 13px;
+                                .text-get {
+                                    font-size: 12px;
+                                    font-family: 'Open Sans';
+                                }
+                                    
+                                .text-google {
+                                    font-size: 20px;
+                                    font-weight: 700;
+                                    font-family: 'Open Sans';
+                                }
                         }
                         
                         .product-download-second {
                             width: 163px;
-                            .link-product-download-appstore{
-                                background: #000000;
-                                color: white;
-                                height: 53px;
-                                border-radius: 8px;
-                                    .img-app {
-                                        width: 30px;
-                                        height: 30px;
-                                        background-color: white;
-                                    }
+                            background: #000000;
+                            color: white;
+                            height: 53px;
+                            border-radius: 8px;
+                            display: flex;
+                            align-items: center;
+                            padding-left: 13px;
+                            .text-download {
+                                font-size: 12px;
+                                font-family: 'Open Sans';
+                            }
+                                
+                            .text-app {
+                                font-size: 20px;
+                                font-weight: 700;
+                                font-family: 'Open Sans';
                             }
                         }
                             

@@ -1,6 +1,7 @@
 @media (max-width: 1200px) {
     .section {
       padding-top: 40px;
+      padding-bottom: 40px;
         .product {
             justify-content: space-evenly;
             .product-presentation {
@@ -24,6 +25,12 @@
                         width: 145px;
                         .link-product-download-googleplay {
                         height: 43px;
+                            .text-get {
+                                font-size: 8px;
+                            }
+                            .text-google {
+                                font-size: 15px;
+                            }
                         }
                     }
                     
@@ -31,6 +38,12 @@
                         width: 130px;
                         .link-product-download-appstore{
                             height: 43px;
+                            .text-download {
+                                font-size: 8px;
+                            }
+                            .text-app {
+                                font-size: 15px;
+                            }
                         }
                     }
                 }
