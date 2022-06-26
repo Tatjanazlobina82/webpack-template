@@ -97,9 +97,17 @@
         
         img {
             height: 15px;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 1;
         }
 
         .navigation {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
                 ul 
                    .a1     {
                         font-size: 10px;
@@ -108,6 +116,14 @@
                     a {
                         font-size: 10px;
                     } 
+        }
+        .buttons {
+
+            grid-column-start: 3;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-auto-flow: row;
         }
 
         .buttons .button-language {

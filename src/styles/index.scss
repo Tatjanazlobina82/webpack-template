@@ -6,6 +6,10 @@
 @use 'section4';
 @use 'section5';
 @use 'section6';
+@use 'section7';
+@use 'section8';
+@use 'footer';
+// media
 @use 'mediaheader';
 @use 'mediasection';
 @use 'mediasection2';
@@ -13,4 +17,7 @@
 @use 'mediasection4';
 @use 'mediasection5';
 @use 'mediasection6';
+@use 'mediasection7';
+@use 'mediasection8';
+@use 'mediafooter';
 // @import "~bootstrap/scss/bootstrap";

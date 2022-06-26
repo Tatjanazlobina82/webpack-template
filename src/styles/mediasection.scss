@@ -3,7 +3,9 @@
       padding-top: 40px;
       padding-bottom: 40px;
         .product {
-            justify-content: space-evenly;
+            justify-content: normal;
+            padding: 0 20px;
+
             .product-presentation {
                 padding-top: 0px;
                 width: 400px;
@@ -61,8 +63,6 @@
     .section
         .product {
             .product-presentation {
-               
-                // max-width: 380px;
                 .h1-product-name {
                     margin-bottom: 10px;
                     padding: 3px 0 5px 0;
@@ -111,8 +111,7 @@
         padding-top: 10px;
         .product {
             .product-presentation {
-                grid-row-start: 2;
-                grid-column-start: 1;
+                
                 padding-top: 10px;
                 width: 315px;
 
@@ -136,6 +135,104 @@
 
                 .product-download {
                     justify-content: end;
+                    .product-download-first {
+                        width: 145px;
+                        height: 40px;
+                        img {
+                            block-size: 45%;
+                        }
+                        .link-product-download-googleplay {
+                        height: 30px;
+
+                        }
+                    }
+                    
+                    .product-download-second {
+                        width: 130px;
+                        height: 40px;
+                        img {
+                            block-size: 45%;
+                        }
+                        .link-product-download-appstore{
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+            .product-composition {
+               
+                height: 590px;
+                background: url(../images/Comp-1_00000-1.jpg) 0 0/315px 315px no-repeat;
+                
+                height: 230px;
+                width: 300px;
+                background-size: 70%;
+                background-position: center;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 630px) {
+    .section {
+        padding-top: 10px;
+        .product {
+            grid-template-columns: 1 1fr;
+            .product-presentation {
+                grid-row-start: 2;
+                grid-column-start: 1;
+                margin: 0 auto;
+                .h1-product-name {
+                    margin-bottom: 3px;
+                    padding: 0px 0 0px 0;
+                    width: 212px;
+                    font-size: 12px;
+                    img {
+                        width: 20px;
+                    }
+                }
+                .span-product-info{
+                    font-size: 18px;
+                    margin-bottom: 3px;
+                    line-height: 21px;
+                }
+                .span-product-text {
+                    line-height: 15px;
+                    font-size: 10px;
+                    margin-bottom: 10px;
+                  
+                }
+                .product-download {
+                    justify-content: left;
+                    .product-download-first {
+                        width: 110px;
+                        height: 30px;
+                        img {
+                            block-size: 40%;
+                        }
+                        .link-product-download-googleplay {
+                        height: 30px;
+                            .text-google {
+                                font-size: 10px;
+                            }
+
+                        }
+                    }
+                    
+                    .product-download-second {
+                        width: 110px;
+                        height: 30px;
+                        img {
+                            block-size: 40%;
+                        }
+                        .link-product-download-appstore{
+                            height: 30px;
+                            .text-app {
+                                font-size: 10px;
+                            }
+                        }
+                    }
                 }
             }
             .product-composition {
@@ -143,8 +240,10 @@
                 grid-column-start: 1;
                 height: 590px;
                 background: url(../images/Comp-1_00000-1.jpg) 0 0/315px 315px no-repeat;
-                height: 315px;
-                width: 315px;
+                height: 230px;
+                width: 300px;
+                background-size: 70%;
+                background-position: center;
             }
         }
     }
